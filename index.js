@@ -21,7 +21,7 @@ const geniusClient = new Genius.Client(config.geniusToken);
 // Configura o node do Lavalink (corrigido)
 const nodes = [{
   name: 'MainNode',
-  url: 'ws://werturz.ddns.net:22333', // ⚠️ ws:// obrigatório
+  url: 'werturz.ddns.net:22333', // REMOVA O 'ws://'
   auth: 'youshallnotportuguese',
   secure: false
 }];
